@@ -35,7 +35,7 @@
                 Margin="5"/>
         <Button x:Name="dividButton" Content="/" Grid.Row="1"
                 Grid.Column="3"
-                Margin="5"/>
+                Margin="5" Click="OperationButton_Click"/>
         <Button x:Name="buttonSeven" Content="7" Grid.Row="2"
                 Grid.Column="0"
                 Margin="5" Click="buttonNumber_Click"/>
@@ -47,7 +47,7 @@
                 Margin="5" Click="buttonNumber_Click"/>
         <Button x:Name="multiplyButton" Content="*" Grid.Row="2"
                 Grid.Column="3"
-                Margin="5"/>
+                Margin="5" Click="OperationButton_Click"/>
         <Button x:Name="buttonFour" Content="4" Grid.Row="3"
                 Grid.Column="0"
                 Margin="5" Click="buttonNumber_Click"/>
@@ -59,7 +59,7 @@
                 Margin="5" Click="buttonNumber_Click"/>
         <Button x:Name="subractionButton" Content="-" Grid.Row="3"
                 Grid.Column="3"
-                Margin="5"/>
+                Margin="5" Click="OperationButton_Click"/>
         <Button x:Name="buttonOne" Content="1" Grid.Row="4"
                 Grid.Column="0"
                 Margin="5" Click="buttonNumber_Click"/>
@@ -71,7 +71,7 @@
                 Margin="5" Click="buttonNumber_Click"/>
         <Button x:Name="additionButton" Content="+" Grid.Row="4"
                 Grid.Column="3"
-                Margin="5"/>
+                Margin="5" Click="OperationButton_Click"/>
         <Button x:Name="decimalButton" Content="." Grid.Row="5"
                 Grid.Column="2"
                 Margin="5"/>
