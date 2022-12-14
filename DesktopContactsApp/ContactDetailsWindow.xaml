@@ -7,13 +7,16 @@
         mc:Ignorable="d"
         WindowStyle="None"
         ResizeMode="NoResize"
-       Title="ContactDetailsWindow" Height="300" Width="300">
+       Title="ContactDetailsWindow" Height="200" Width="400">
     <Grid>
         <StackPanel Margin="10">
+            <TextBlock Text="Namn:"/>
             <TextBox x:Name="nameTextBox"
                      Margin="0,0,0,5"/>
+            <TextBlock Text="E-mail:"/>
             <TextBox x:Name="emailTextBox"
                      Margin="0,0,0,5"/>
+            <TextBlock Text="Telefonnummer:"/>
             <TextBox x:Name="phoneNumberTextBox"
                      Margin="0,0,0,5"/>
             <Button Content="Update"
