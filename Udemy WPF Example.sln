@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpePractise", "CSharpePractise\CSharpePractise.csproj", "{8F0E1195-E898-4486-A518-4C833C179C49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopContactsApp", "DesktopContactsApp\DesktopContactsApp.csproj", "{B9A8BDF2-F926-452D-BA3F-1254C42E5149}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesktopContactsApp", "DesktopContactsApp\DesktopContactsApp.csproj", "{B9A8BDF2-F926-452D-BA3F-1254C42E5149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandmarkAI", "LandmarkAI\LandmarkAI.csproj", "{04F484F6-008F-4351-9938-AD1DD925561C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B9A8BDF2-F926-452D-BA3F-1254C42E5149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9A8BDF2-F926-452D-BA3F-1254C42E5149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9A8BDF2-F926-452D-BA3F-1254C42E5149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F484F6-008F-4351-9938-AD1DD925561C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F484F6-008F-4351-9938-AD1DD925561C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F484F6-008F-4351-9938-AD1DD925561C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F484F6-008F-4351-9938-AD1DD925561C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
